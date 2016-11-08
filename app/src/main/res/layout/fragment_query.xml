@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Query Server DataBase"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:textColor="#4682B4"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/queryList"
+        android:background="#FFDAB9"
+        android:textColor="#4682B4"></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NetID"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="225dp"
+        android:layout_height="25dp"
+        android:id="@+id/netidEdit"
+
+        android:layout_gravity="center"
+        android:background="#4682B4"
+        android:textColor="#FFF"
+        android:hint="@string/netidHint"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorting"
+        android:layout_marginTop="15dp"/>
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="225dp"
+        android:layout_height="35dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/queryButton"
+        android:layout_gravity="right"
+        android:text="SEARCH"
+
+        />
+
+
+</LinearLayout>

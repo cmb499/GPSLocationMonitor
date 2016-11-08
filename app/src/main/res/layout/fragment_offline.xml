@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/localTextView"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:textColor="#4682B4"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/offlineList"
+        android:layout_marginTop="15dp"
+        android:background="#FFDAB9"
+        android:textColor="#4682B4"></ListView>
+
+</LinearLayout>
